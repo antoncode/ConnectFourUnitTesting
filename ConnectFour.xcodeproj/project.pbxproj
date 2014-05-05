@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A50AB771918243B00ABD9E7 /* ARGameBoardColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50AB761918243B00ABD9E7 /* ARGameBoardColumn.m */; };
+		3A50AB7A1918244900ABD9E7 /* ARGameBoardSlots.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A50AB791918244900ABD9E7 /* ARGameBoardSlots.m */; };
+		3AB08DB11917F3AD009ABA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB08DB01917F3AD009ABA2C /* Foundation.framework */; };
+		3AB08DB31917F3AD009ABA2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB08DB21917F3AD009ABA2C /* CoreGraphics.framework */; };
+		3AB08DB51917F3AD009ABA2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB08DB41917F3AD009ABA2C /* UIKit.framework */; };
+		3AB08DBB1917F3AD009ABA2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AB08DB91917F3AD009ABA2C /* InfoPlist.strings */; };
+		3AB08DBD1917F3AD009ABA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DBC1917F3AD009ABA2C /* main.m */; };
+		3AB08DC11917F3AE009ABA2C /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DC01917F3AE009ABA2C /* ARAppDelegate.m */; };
+		3AB08DC41917F3AE009ABA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB08DC21917F3AE009ABA2C /* Main.storyboard */; };
+		3AB08DC71917F3AE009ABA2C /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DC61917F3AE009ABA2C /* ARViewController.m */; };
+		3AB08DC91917F3AE009ABA2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB08DC81917F3AE009ABA2C /* Images.xcassets */; };
+		3AB08DD01917F3AE009ABA2C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB08DCF1917F3AE009ABA2C /* XCTest.framework */; };
+		3AB08DD11917F3AE009ABA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB08DB01917F3AD009ABA2C /* Foundation.framework */; };
+		3AB08DD21917F3AE009ABA2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB08DB41917F3AD009ABA2C /* UIKit.framework */; };
+		3AB08DDA1917F3AE009ABA2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AB08DD81917F3AE009ABA2C /* InfoPlist.strings */; };
+		3AB08DDC1917F3AE009ABA2C /* ConnectFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DDB1917F3AE009ABA2C /* ConnectFourTests.m */; };
+		3AB08DEA1917F63D009ABA2C /* ARGamePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DE91917F63D009ABA2C /* ARGamePiece.m */; };
+		3AB08DED1917F659009ABA2C /* ARGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DEC1917F659009ABA2C /* ARGameBoard.m */; };
+		3AB08DEE1917F659009ABA2C /* ARGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DEC1917F659009ABA2C /* ARGameBoard.m */; };
+		3AB08DEF1917F696009ABA2C /* ARGamePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DE91917F63D009ABA2C /* ARGamePiece.m */; };
+		3AB08DF21917F6A3009ABA2C /* ARPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DF11917F6A3009ABA2C /* ARPlayer.m */; };
+		3AB08DF31917F6A3009ABA2C /* ARPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB08DF11917F6A3009ABA2C /* ARPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB08DD31917F3AE009ABA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB08DA51917F3AD009ABA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB08DAC1917F3AD009ABA2C;
+			remoteInfo = ConnectFour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A50AB751918243B00ABD9E7 /* ARGameBoardColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGameBoardColumn.h; sourceTree = "<group>"; };
+		3A50AB761918243B00ABD9E7 /* ARGameBoardColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGameBoardColumn.m; sourceTree = "<group>"; };
+		3A50AB781918244900ABD9E7 /* ARGameBoardSlots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGameBoardSlots.h; sourceTree = "<group>"; };
+		3A50AB791918244900ABD9E7 /* ARGameBoardSlots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGameBoardSlots.m; sourceTree = "<group>"; };
+		3AB08DAD1917F3AD009ABA2C /* ConnectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB08DB01917F3AD009ABA2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AB08DB21917F3AD009ABA2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AB08DB41917F3AD009ABA2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AB08DB81917F3AD009ABA2C /* ConnectFour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectFour-Info.plist"; sourceTree = "<group>"; };
+		3AB08DBA1917F3AD009ABA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AB08DBC1917F3AD009ABA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AB08DBE1917F3AE009ABA2C /* ConnectFour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConnectFour-Prefix.pch"; sourceTree = "<group>"; };
+		3AB08DBF1917F3AE009ABA2C /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		3AB08DC01917F3AE009ABA2C /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		3AB08DC31917F3AE009ABA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB08DC51917F3AE009ABA2C /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		3AB08DC61917F3AE009ABA2C /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		3AB08DC81917F3AE009ABA2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AB08DCE1917F3AE009ABA2C /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB08DCF1917F3AE009ABA2C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3AB08DD71917F3AE009ABA2C /* ConnectFourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectFourTests-Info.plist"; sourceTree = "<group>"; };
+		3AB08DD91917F3AE009ABA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AB08DDB1917F3AE009ABA2C /* ConnectFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectFourTests.m; sourceTree = "<group>"; };
+		3AB08DE81917F63D009ABA2C /* ARGamePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGamePiece.h; sourceTree = "<group>"; };
+		3AB08DE91917F63D009ABA2C /* ARGamePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGamePiece.m; sourceTree = "<group>"; };
+		3AB08DEB1917F659009ABA2C /* ARGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGameBoard.h; sourceTree = "<group>"; };
+		3AB08DEC1917F659009ABA2C /* ARGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGameBoard.m; sourceTree = "<group>"; };
+		3AB08DF01917F6A3009ABA2C /* ARPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPlayer.h; sourceTree = "<group>"; };
+		3AB08DF11917F6A3009ABA2C /* ARPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB08DAA1917F3AD009ABA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB08DB31917F3AD009ABA2C /* CoreGraphics.framework in Frameworks */,
+				3AB08DB51917F3AD009ABA2C /* UIKit.framework in Frameworks */,
+				3AB08DB11917F3AD009ABA2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB08DCB1917F3AE009ABA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB08DD01917F3AE009ABA2C /* XCTest.framework in Frameworks */,
+				3AB08DD21917F3AE009ABA2C /* UIKit.framework in Frameworks */,
+				3AB08DD11917F3AE009ABA2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB08DA41917F3AD009ABA2C = {
+			isa = PBXGroup;
+			children = (
+				3AB08DB61917F3AD009ABA2C /* ConnectFour */,
+				3AB08DD51917F3AE009ABA2C /* ConnectFourTests */,
+				3AB08DAF1917F3AD009ABA2C /* Frameworks */,
+				3AB08DAE1917F3AD009ABA2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB08DAE1917F3AD009ABA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DAD1917F3AD009ABA2C /* ConnectFour.app */,
+				3AB08DCE1917F3AE009ABA2C /* ConnectFourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB08DAF1917F3AD009ABA2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DB01917F3AD009ABA2C /* Foundation.framework */,
+				3AB08DB21917F3AD009ABA2C /* CoreGraphics.framework */,
+				3AB08DB41917F3AD009ABA2C /* UIKit.framework */,
+				3AB08DCF1917F3AE009ABA2C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AB08DB61917F3AD009ABA2C /* ConnectFour */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DE71917F430009ABA2C /* Controllers */,
+				3AB08DE61917F427009ABA2C /* Views */,
+				3AB08DE51917F421009ABA2C /* Models */,
+				3AB08DB71917F3AD009ABA2C /* Supporting Files */,
+			);
+			path = ConnectFour;
+			sourceTree = "<group>";
+		};
+		3AB08DB71917F3AD009ABA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DC81917F3AE009ABA2C /* Images.xcassets */,
+				3AB08DBF1917F3AE009ABA2C /* ARAppDelegate.h */,
+				3AB08DC01917F3AE009ABA2C /* ARAppDelegate.m */,
+				3AB08DB81917F3AD009ABA2C /* ConnectFour-Info.plist */,
+				3AB08DB91917F3AD009ABA2C /* InfoPlist.strings */,
+				3AB08DBC1917F3AD009ABA2C /* main.m */,
+				3AB08DBE1917F3AE009ABA2C /* ConnectFour-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AB08DD51917F3AE009ABA2C /* ConnectFourTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DDB1917F3AE009ABA2C /* ConnectFourTests.m */,
+				3AB08DD61917F3AE009ABA2C /* Supporting Files */,
+			);
+			path = ConnectFourTests;
+			sourceTree = "<group>";
+		};
+		3AB08DD61917F3AE009ABA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DD71917F3AE009ABA2C /* ConnectFourTests-Info.plist */,
+				3AB08DD81917F3AE009ABA2C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AB08DE51917F421009ABA2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DE81917F63D009ABA2C /* ARGamePiece.h */,
+				3AB08DE91917F63D009ABA2C /* ARGamePiece.m */,
+				3AB08DEB1917F659009ABA2C /* ARGameBoard.h */,
+				3AB08DEC1917F659009ABA2C /* ARGameBoard.m */,
+				3A50AB751918243B00ABD9E7 /* ARGameBoardColumn.h */,
+				3A50AB761918243B00ABD9E7 /* ARGameBoardColumn.m */,
+				3A50AB781918244900ABD9E7 /* ARGameBoardSlots.h */,
+				3A50AB791918244900ABD9E7 /* ARGameBoardSlots.m */,
+				3AB08DF01917F6A3009ABA2C /* ARPlayer.h */,
+				3AB08DF11917F6A3009ABA2C /* ARPlayer.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3AB08DE61917F427009ABA2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DC21917F3AE009ABA2C /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3AB08DE71917F430009ABA2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AB08DC51917F3AE009ABA2C /* ARViewController.h */,
+				3AB08DC61917F3AE009ABA2C /* ARViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB08DAC1917F3AD009ABA2C /* ConnectFour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB08DDF1917F3AE009ABA2C /* Build configuration list for PBXNativeTarget "ConnectFour" */;
+			buildPhases = (
+				3AB08DA91917F3AD009ABA2C /* Sources */,
+				3AB08DAA1917F3AD009ABA2C /* Frameworks */,
+				3AB08DAB1917F3AD009ABA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectFour;
+			productName = ConnectFour;
+			productReference = 3AB08DAD1917F3AD009ABA2C /* ConnectFour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB08DCD1917F3AE009ABA2C /* ConnectFourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB08DE21917F3AE009ABA2C /* Build configuration list for PBXNativeTarget "ConnectFourTests" */;
+			buildPhases = (
+				3AB08DCA1917F3AE009ABA2C /* Sources */,
+				3AB08DCB1917F3AE009ABA2C /* Frameworks */,
+				3AB08DCC1917F3AE009ABA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB08DD41917F3AE009ABA2C /* PBXTargetDependency */,
+			);
+			name = ConnectFourTests;
+			productName = ConnectFourTests;
+			productReference = 3AB08DCE1917F3AE009ABA2C /* ConnectFourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB08DA51917F3AD009ABA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Anton Hilario Rivera";
+				TargetAttributes = {
+					3AB08DCD1917F3AE009ABA2C = {
+						TestTargetID = 3AB08DAC1917F3AD009ABA2C;
+					};
+				};
+			};
+			buildConfigurationList = 3AB08DA81917F3AD009ABA2C /* Build configuration list for PBXProject "ConnectFour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB08DA41917F3AD009ABA2C;
+			productRefGroup = 3AB08DAE1917F3AD009ABA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB08DAC1917F3AD009ABA2C /* ConnectFour */,
+				3AB08DCD1917F3AE009ABA2C /* ConnectFourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB08DAB1917F3AD009ABA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB08DC91917F3AE009ABA2C /* Images.xcassets in Resources */,
+				3AB08DBB1917F3AD009ABA2C /* InfoPlist.strings in Resources */,
+				3AB08DC41917F3AE009ABA2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB08DCC1917F3AE009ABA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB08DDA1917F3AE009ABA2C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB08DA91917F3AD009ABA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB08DBD1917F3AD009ABA2C /* main.m in Sources */,
+				3AB08DC71917F3AE009ABA2C /* ARViewController.m in Sources */,
+				3AB08DC11917F3AE009ABA2C /* ARAppDelegate.m in Sources */,
+				3AB08DF21917F6A3009ABA2C /* ARPlayer.m in Sources */,
+				3AB08DEA1917F63D009ABA2C /* ARGamePiece.m in Sources */,
+				3AB08DED1917F659009ABA2C /* ARGameBoard.m in Sources */,
+				3A50AB771918243B00ABD9E7 /* ARGameBoardColumn.m in Sources */,
+				3A50AB7A1918244900ABD9E7 /* ARGameBoardSlots.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB08DCA1917F3AE009ABA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB08DEF1917F696009ABA2C /* ARGamePiece.m in Sources */,
+				3AB08DF31917F6A3009ABA2C /* ARPlayer.m in Sources */,
+				3AB08DDC1917F3AE009ABA2C /* ConnectFourTests.m in Sources */,
+				3AB08DEE1917F659009ABA2C /* ARGameBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB08DD41917F3AE009ABA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB08DAC1917F3AD009ABA2C /* ConnectFour */;
+			targetProxy = 3AB08DD31917F3AE009ABA2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AB08DB91917F3AD009ABA2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB08DBA1917F3AD009ABA2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AB08DC21917F3AE009ABA2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB08DC31917F3AE009ABA2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AB08DD81917F3AE009ABA2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB08DD91917F3AE009ABA2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AB08DDD1917F3AE009ABA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AB08DDE1917F3AE009ABA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AB08DE01917F3AE009ABA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				INFOPLIST_FILE = "ConnectFour/ConnectFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AB08DE11917F3AE009ABA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				INFOPLIST_FILE = "ConnectFour/ConnectFour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AB08DE31917F3AE009ABA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConnectFour.app/ConnectFour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConnectFourTests/ConnectFourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3AB08DE41917F3AE009ABA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConnectFour.app/ConnectFour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectFour/ConnectFour-Prefix.pch";
+				INFOPLIST_FILE = "ConnectFourTests/ConnectFourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB08DA81917F3AD009ABA2C /* Build configuration list for PBXProject "ConnectFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB08DDD1917F3AE009ABA2C /* Debug */,
+				3AB08DDE1917F3AE009ABA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB08DDF1917F3AE009ABA2C /* Build configuration list for PBXNativeTarget "ConnectFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB08DE01917F3AE009ABA2C /* Debug */,
+				3AB08DE11917F3AE009ABA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB08DE21917F3AE009ABA2C /* Build configuration list for PBXNativeTarget "ConnectFourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB08DE31917F3AE009ABA2C /* Debug */,
+				3AB08DE41917F3AE009ABA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AB08DA51917F3AD009ABA2C /* Project object */;
+}
